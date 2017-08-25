@@ -12,7 +12,7 @@
     <div id="logo">
       <p>Facelook</p>
     </div>
-    <div id="signup">
+    <div id="sign-in">
     <form>
       <table>
         <tr>
@@ -21,7 +21,8 @@
           </td>
           <td>
             <label for="password">password</label>
-          <td>
+          </td>
+        </tr>
         <tr>
           <td>
             <input type="text" name="username">
@@ -33,18 +34,44 @@
             <input id="submit" type="submit" name="log-in">
           </td>
         </tr>
+      </table>
     </form>
     </div>
   </header>
   <main>
     <aside></aside>
-    <!--<form>
-      <fieldset>
-      <legend>Sign up</legend>
-      <input type="text" name="firstname" placeholder="First Name">
-      <input type="text" name="lastname" placeholder="Last Name">
-      </fieldset>
-    </form>-->
+    <div id="sign-up">
+    <form>
+      <table>
+      <caption>
+        <p>Sign Up</p>
+      </caption>
+      <tr>
+        <td>
+          <input type="text" name="firstname" placeholder="First Name">
+        </td>
+        <td>
+          <input type="text" name="lastname" placeholder="Last Name">
+        </td>
+      </tr> 
+      <tr>
+        <td colspan="2">
+          <input type="text" name="email" placeholder="Your Email">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="password" name="password" placeholder="Your New Password">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <input type="password" name="password-confirm" placeholder="Confirm Your Password">
+        </td>
+      </tr>
+      </table>
+    </form>
+    </div>
   </main>
 
 </body>

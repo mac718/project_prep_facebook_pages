@@ -1,3 +1,6 @@
+body {
+  font-family: helvetica;
+}
 header {
   height: 125px;
   width: 100%;
@@ -6,12 +9,20 @@ header {
   align-items: center;
   justify-content: space-between;
   color: white;
-  font-family: helvetica;
   font-size: 32px;
 }
 
 td {
   font-size: 12px;
+}
+
+caption {
+  font-size: 50px;
+  text-align: left;
+}
+
+input {
+  width: 100%
 }
 
 main {
@@ -23,7 +34,11 @@ main {
   width: 60%
 }
 
-#signup {
+#sign-in {
   width: 40%;
   display: flex;
+}
+
+#sign-up {
+  width: 40%;
 }
