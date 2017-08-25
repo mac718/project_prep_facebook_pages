@@ -1,5 +1,5 @@
 body {
-  font-family: helvetica;
+  font-family: "open sans";
 }
 header {
   height: 125px;
@@ -14,11 +14,13 @@ header {
 
 td {
   font-size: 12px;
+  padding: 5px;
 }
 
 caption {
   font-size: 50px;
   text-align: left;
+  margin-bottom: 30px;
 }
 
 input {
@@ -28,6 +30,31 @@ input {
 main {
   display: flex;
   justify-content: space-between;
+}
+
+aside {
+  width: 60%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 15%;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+ul {
+  list-style: disc;
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+  line-height: 3em;
+}
+
+li {
+  margin-left: 100px;
+  font-size: 20px;
 }
 
 #logo {
@@ -41,4 +68,5 @@ main {
 
 #sign-up {
   width: 40%;
+  margin-top: 3%;
 }
