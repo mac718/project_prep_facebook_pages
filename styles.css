@@ -1,6 +1,7 @@
 body {
-  font-family: "open sans";
+  font-family: "open sans", sans-serif;
 }
+
 header {
   height: 125px;
   width: 100%;
