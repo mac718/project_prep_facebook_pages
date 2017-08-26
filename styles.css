@@ -9,7 +9,11 @@ header {
   align-items: center;
   justify-content: space-between;
   color: white;
-  font-size: 32px;
+  font-size: 45px;
+}
+
+header p {
+  margin-left: 50px;
 }
 
 td {
@@ -59,11 +63,12 @@ li {
 
 button {
   height: 50px;
-  width: 400px;
+  width: 375px;
   background: green;
   text-align: center;
   font-size: 24px;
   color: white;
+  display: block;
 }
 
 #logo {
@@ -75,6 +80,14 @@ button {
   display: flex;
 }
 
+#log-in {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: #9FC5F9;
+  color: black;
+}
+
 #sign-up {
   width: 40%;
   margin-top: 3%;
@@ -82,4 +95,15 @@ button {
 
 #sign-up td{
   padding: 20px 20px 20px 0;
+}
+
+#birthday-heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.gender {
+  width: auto;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }

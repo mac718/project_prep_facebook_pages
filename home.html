@@ -32,7 +32,8 @@
             <input type="password" name="password">  
           </td>
           <td>
-            <input id="submit" type="submit" name="log-in">
+            <button id="log-in">Log In</button>
+            <!--<input id="submit" type="submit" name="log-in">-->
           </td>
         </tr>
       </table>
@@ -56,25 +57,25 @@
         <p>Sign Up</p>
       </caption>
       <tr>
-        <td>
+        <td class="sign-up-info">
           <input type="text" name="firstname" placeholder="First Name">
         </td>
-        <td>
+        <td class="sign-up-info">
           <input type="text" name="lastname" placeholder="Last Name">
         </td>
       </tr> 
       <tr>
-        <td colspan="2">
+        <td class="sign-up-info" colspan="2">
           <input type="text" name="email" placeholder="Your Email">
         </td>
       </tr>
       <tr>
-        <td colspan="2">
+        <td class="sign-up-info" colspan="2">
           <input type="password" name="password" placeholder="Your New Password">
         </td>
       </tr>
       <tr>
-        <td colspan="2">
+        <td class="sign-up-info" colspan="2">
           <input type="password" name="password-confirm" placeholder="Confirm Your Password">
         </td>
       </tr>
@@ -83,13 +84,13 @@
     <form>
       <table>
         <tr>
-          <td colspan="3">
+          <td id="birthday-heading" colspan="3">
             <label>Birthday</label>
           </td>
         </tr>
         <tr>
           <td>
-            <select name="birthday-month">
+            <select class="birthday-cell" name="birthday-month">
               <option selected="">Month</option>
               <option value="january">January</option>
               <option value="february">February</option>
@@ -140,6 +141,9 @@
             </select>
           </td>
       </table>
+      
+      <input class="gender" type="radio" name="gender" value="male">male
+      <input class="gender" type="radio" name="gender" value="female">female
       <button>Sign Up!</button>
     </form>
     </div>
