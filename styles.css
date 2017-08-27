@@ -143,7 +143,7 @@ button {
 
 #cover-photo {
   width: 60%;
-  height: 350px;
+  height: 300px;
   margin: auto;
   border: 2px solid;
 }
@@ -153,15 +153,15 @@ button {
   width: 200px;
   border: 2px solid;
   position: relative;
-  left: 20px;
-  top: 190px;
+  left: 15px;
+  top: 150px;
   background: lightgrey;
 }
 
 #profile-name-cover {
   position: relative;
   left: 220px;
-  top: 115px;
+  top: 100px;
   font-size: 32px;
 }
 
@@ -191,7 +191,7 @@ button {
 
 #info {
   width: 60%;
-  height: 700px;
+  height: 550px;
   border: 2px solid;
   margin: auto;
 }
@@ -230,6 +230,47 @@ button {
 #edit-profile p {
   font-size: 14px;
   margin: auto;
+}
+
+#basic-info {
+  width: 45%;
+  height: 100%;
+  float: left;
+}
+
+#basic-info td {
+  width: 100px;
+}
+
+#basic-info caption {
+  box-sizing: border-box;
+}
+
+
+#basic-info h2, #blurbs h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+#basic-info-table {
+  margin: auto;
+}
+
+.left {
+  text-align: left;
+}
+
+#blurbs {
+  width:55%;
+  height: 100%;
+  float: left;
+}
+
+#blurbs p {
+  font-size: 14px;
+  line-height: 2em;
 }
 
 .vertical-align {
