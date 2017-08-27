@@ -136,7 +136,7 @@ button {
   display: inline-block;
 }
 
-#profile-name {
+#profile-name-header {
   float: right;
   margin-right: 20%;
 }
@@ -158,6 +158,13 @@ button {
   background: lightgrey;
 }
 
+#profile-name-cover {
+  position: relative;
+  left: 220px;
+  top: 115px;
+  font-size: 32px;
+}
+
 #about-navbar {
   width: 60%;
   height: 75px;
@@ -174,6 +181,12 @@ button {
   width: 100px;
   border-left: 2px solid;
   border-right: 2px solid;
+}
+
+.about-navbar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #info {
@@ -195,7 +208,7 @@ button {
 }
 
 #info header h1 {
-  font-size: 24px;
+  font-size: 30px;
   margin: auto;
   color: black;
   display: inline-block;
