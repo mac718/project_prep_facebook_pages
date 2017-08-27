@@ -186,7 +186,37 @@ button {
 #info header {
   height: 50px;
   background: lightgrey;
-  border-bottom: 2px solid;
+  border-bottom: black 2px solid;
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 140px;
+  box-sizing: border-box;
+}
+
+#info header h1 {
+  font-size: 24px;
+  margin: auto;
+  color: black;
+  display: inline-block;
+  width: 100px;
+  
+}
+
+#edit-profile {
+  height: 30px;
+  width: 110px;
+  background: blue;
+  color: white;
+  font-weight: bold;
+  border: black 2px solid;
+  padding: 0 5px 0 5px;
+  box-shadow: black 3px 3px;
+}
+
+#edit-profile p {
+  font-size: 14px;
+  margin: auto;
 }
 
 .vertical-align {
