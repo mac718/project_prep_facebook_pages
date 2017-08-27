@@ -117,7 +117,7 @@ button {
 } 
 
 #about-searchbar {
-  width: 900px;
+  width: 600px;
   margin-left: 50px;
   float: left;
 }
@@ -127,7 +127,7 @@ button {
   height: 40px;
   background-color: white;
   float: left;
-  margin-left: 10%;
+  margin-left: 20%;
 }
 
 #about-logo {
@@ -138,7 +138,55 @@ button {
 
 #profile-name {
   float: right;
-  margin-right: 10%;
+  margin-right: 20%;
+}
+
+#cover-photo {
+  width: 60%;
+  height: 350px;
+  margin: auto;
+  border: 2px solid;
+}
+
+#profile-photo-about {
+  height: 200px;
+  width: 200px;
+  border: 2px solid;
+  position: relative;
+  left: 20px;
+  top: 190px;
+  background: lightgrey;
+}
+
+#about-navbar {
+  width: 60%;
+  height: 75px;
+  border: 2px solid;
+  margin: auto;
+  border-top: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#about-navbar div {
+  height: 75px;
+  width: 100px;
+  border-left: 2px solid;
+  border-right: 2px solid;
+}
+
+#info {
+  width: 60%;
+  height: 700px;
+  border: 2px solid;
+  margin: auto;
+}
+
+#info header {
+  height: 50px;
+  background: lightgrey;
+  border-bottom: 2px solid;
 }
 
 .vertical-align {
