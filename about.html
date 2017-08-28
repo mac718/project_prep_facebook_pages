@@ -11,7 +11,7 @@
   <header id="about-header">
     <div id="profile-pic" class="vertical-align"></div>
     <p id="about-logo" class="vertical-align">Facelook</p>
-    <input class="vertical-align" id="about-searchbar" type="text" name="search" placeholder="search Facelook...">
+    <input class="vertical-align" id="about-searchbar" type="text" name="search" placeholder="Search For Users">
     <p id="profile-name-header" class="vertical-align">Harry</p>
   </header>
   <section id="cover-and-nav">
@@ -19,14 +19,20 @@
       <div id="profile-photo-about">
         <p id="profile-name-cover">Harry Potter</p>
       </div>
-
     </div>
     <div id="about-navbar">
-      <div class="about-navbar-button">Timeline</div>
-      <div id="current-page" class="about-navbar-button">About</div>
-      <div class="about-navbar-button">Photos</div>
-      <div class="about-navbar-button">Friends</div>
+    <div id="navbar-button-container">
+      <div class="about-navbar-button"><p class="vertical-align">Timeline</p></div>
+      <div id="current-page" class="about-navbar-button"><p class="vertical-align">About</p></div>
+      <div class="about-navbar-button"><p class="vertical-align">Photos <span class="count">(123)</span></p></div>
+      <div class="about-navbar-button"><p class="vertical-align">Friends <span class="count">(542)</span></p></div>
     </div>
+    
+    <div id="edit-profile-link" class="about-navbar-button">
+      <a class="vertical-align" href="#">Edit profile</a>
+    </div>
+    </div>
+
   </section>
   <section id="info">
     <header>
@@ -48,11 +54,24 @@
         </tr>
         <tr>
           <td class="left">Hometown:</td>
-          <td>England</td>
+          <td>Goldrick's Hollow, England</td>
         </tr>
         <tr>
           <td class="left">Current Location:</td>
-          <td>England</td>
+          <td>Goldrick's Hollow, England</td>
+        </tr>
+      </table>
+      <table id="contact-info-table">
+        <thead>
+          <th colspan="2"><h2>Contact information</h2></th>
+        </thead>
+        <tr>
+          <td class="left">Email:</td>
+          <td>harry_potter@hogwarts.edu</td>
+        </tr>
+        <tr>
+          <td class="left">Telephone:</td>
+          <td>555-123-4567</td>
         </tr>
       </table>
     </aside>

@@ -109,6 +109,8 @@ button {
   margin-bottom: 25px;
 }
 
+/* About page styles */
+
 #about-header {
   height: 65px;
   font-size: 24px;
@@ -117,7 +119,7 @@ button {
 } 
 
 #about-searchbar {
-  width: 600px;
+  width: 750px;
   margin-left: 50px;
   float: left;
 }
@@ -139,6 +141,20 @@ button {
 #profile-name-header {
   float: right;
   margin-right: 15%;
+}
+
+
+#edit-profile-link {
+  width: 150px;
+  border: none;
+}
+
+#edit-profile-link a {
+  float: right;
+  display: block;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 #cover-photo {
@@ -172,22 +188,30 @@ button {
   margin: auto;
   border-top: none;
   display: flex;
-  justify-content: center;
   margin-bottom: 20px;
 }
 
-#about-navbar div {
+#navbar-button-container {
+  width: 508px;
   height: 75px;
-  width: 100px;
-  border-left: 2px solid;
+  margin: auto;
+  margin-right: 150px;
   border-right: 2px solid;
 }
 
 .about-navbar-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 75px;
+  width: 125px;
+  border-left: 2px solid;
+  display: inline-block;
+  float: left;
   font-weight: bold;
+  text-align: center;
+}
+
+.count {
+  font-weight: normal;
+  color: grey;
 }
 
 #current-page {
@@ -243,28 +267,25 @@ button {
   float: left;
 }
 
-#basic-info td {
-  width: 150px;
+#basic-info td, #contact-info-table td {
+  width: 175px;
+  text-align: left;
 }
 
-#basic-info caption {
-  box-sizing: border-box;
-}
-
-
-#basic-info h2, #blurbs h2 {
+#basic-info h2, #contact-info-table h2,  #blurbs h2 {
   font-size: 24px;
   margin-top: 20px;
   padding-top: 20px;
   font-weight: bold;
+  text-align: left;
 }
 
-#basic-info-table {
+#basic-info-table, #contact-info-table {
   margin: auto;
 }
 
-#basic-info td {
-  padding: 20px;
+#basic-info td, #contact-info-table td {
+  padding: 20px 0 20px 0;
   font-size: 14px;
 }
 
@@ -282,6 +303,8 @@ button {
 #blurbs p {
   font-size: 14px;
   line-height: 2em;
+  padding-right: 100px;
+  margin-top: 20px;
 }
 
 .vertical-align {
