@@ -2,6 +2,10 @@ body {
   font-family: "open sans", sans-serif;
 }
 
+/*==================== 
+Home page styles
+====================*/
+
 header {
   height: 125px;
   width: 100%;
@@ -109,18 +113,20 @@ button {
   margin-bottom: 25px;
 }
 
-/* About page styles */
+/*==================== 
+About page styles
+====================*/
 
 #about-header {
   height: 65px;
   font-size: 24px;
   display: block;
-  position: relative;
+  min-width: 713px;
 } 
 
 #about-searchbar {
-  width: 750px;
-  margin-left: 50px;
+  width: 45%;
+  margin-left: 5%;
   float: left;
 }
 
@@ -135,12 +141,12 @@ button {
 #about-logo {
   margin-left: 5px;
   float: left;
-  display: inline-block;
 }
 
 #profile-name-header {
   float: right;
   margin-right: 15%;
+  margin-left: 0;
 }
 
 
@@ -157,8 +163,12 @@ button {
   font-weight: normal;
 }
 
+#cover-photo, #about-navbar, #info {
+  max-width: 1015px;
+  min-width: 713px;
+}
+
 #cover-photo {
-  width: 70%;
   height: 300px;
   margin: auto;
   border: 2px solid;
@@ -182,7 +192,6 @@ button {
 }
 
 #about-navbar {
-  width: 70%;
   height: 75px;
   border: 2px solid;
   margin: auto;
@@ -195,16 +204,15 @@ button {
   width: 508px;
   height: 75px;
   margin: auto;
-  margin-right: 150px;
+  margin-right: 113px;
   border-right: 2px solid;
+  display: flex;
 }
 
 .about-navbar-button {
   height: 75px;
   width: 125px;
   border-left: 2px solid;
-  display: inline-block;
-  float: left;
   font-weight: bold;
   text-align: center;
 }
@@ -219,7 +227,6 @@ button {
 }
 
 #info {
-  width: 70%;
   height: 550px;
   border: 2px solid;
   margin: auto;
@@ -242,7 +249,6 @@ button {
   color: black;
   display: inline-block;
   width: 100px;
-  
 }
 
 #edit-profile {
@@ -270,6 +276,8 @@ button {
 #basic-info td, #contact-info-table td {
   width: 175px;
   text-align: left;
+  padding: 20px 0 20px 0;
+  font-size: 14px;
 }
 
 #basic-info h2, #contact-info-table h2,  #blurbs h2 {
@@ -282,11 +290,6 @@ button {
 
 #basic-info-table, #contact-info-table {
   margin: auto;
-}
-
-#basic-info td, #contact-info-table td {
-  padding: 20px 0 20px 0;
-  font-size: 14px;
 }
 
 .left {
@@ -313,4 +316,10 @@ button {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 1050px) {
+    #profile-name-header {
+        margin-right: 0;
+    }
 }
