@@ -138,12 +138,11 @@ About page styles
   float: left;
 }
 
-#profile-pic {
+#header-profile-pic {
   width: 40px;
   height: 40px;
   background-color: white;
   float: left;
-  /*margin-left: 15%;*/
 }
 
 #about-logo {
@@ -153,7 +152,6 @@ About page styles
 
 #profile-name-header {
   float: right;
-  /*margin-right: 15%;*/
   margin-left: 0;
 }
 
